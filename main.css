@@ -1,0 +1,184 @@
+/*
+*   Copyright
+*{
+    margin: 0;
+}
+body, html {
+    height: 100%;
+    font-family: "Ubuntu";
+}
+a{
+    text-decoration: none;
+    color: #ecf0f1;
+}
+a:hover{
+    color:#bdc3c7;
+    cursor: pointer;
+}
+.nav{
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: #2c3e50;
+    font-size: 200%;
+    color: #ecf0f1;
+}
+.nav #right{
+    float: right;
+}
+.nav #home:hover{
+    color:#bdc3c7;
+    cursor: pointer;
+}
+#spacer0{
+    padding: 2%;
+}
+#spacer1{
+    padding: 2%;
+}
+#spacer2{
+    padding: 2%;
+}
+#spacer3{
+    padding: 2%;
+}
+.titleCard { 
+    background-image: url("background.jpg");
+    height: 101%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.titleCard .title{
+    font-size: 400%;
+    text-align: center;
+    padding-top: 12%;
+    color: #ecf0f1;
+}
+.titleCard .title span{
+    font-size: 50%;
+    text-align: center;
+    color: #ecf0f1;
+}
+.about{
+    background-color: #ecf0f1;
+    padding-top: 12%;
+    text-align: center;
+    font-size: 200%;
+    padding-bottom: 10%;
+}
+.about p{
+    font-size: 100%;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+.about img{
+    border-radius: 50%;
+    animation: profilePic 3s infinite;
+}
+.contact{
+    background-color: #3498db;
+    padding-top: 12%;
+    text-align: center;
+    font-size: 200%;
+    color:#ecf0f1;
+}
+#fb{cursor: pointer; color:#ecf0f1; padding:1%; background-color:#3b5998;}
+#tw{cursor: pointer; color:#ecf0f1; padding:1%; background-color:#55acee;}
+#ma{cursor: pointer; color:#ecf0f1; padding:1%; background-color:#373737;}
+#fb:hover{cursor: pointer; color:#3b5998; background-color:#ecf0f1; border-bottom: 6px solid #3b5998; animation: fbHover 0.5s;box-shadow: 0px 3px 10px 0.25px rgba(0,0,0,0.6);}
+#tw:hover{cursor: pointer; color:#55acee; background-color:#ecf0f1; border-bottom: 6px solid #55acee; animation: twHover 0.5s;box-shadow: 0px 3px 10px 0.25px rgba(0,0,0,0.6);}
+#ma:hover{cursor: pointer; color:#373737; background-color:#ecf0f1; border-bottom: 6px solid #373737; animation: maHover 0.5s;box-shadow: 0px 3px 10px 0.25px rgba(0,0,0,0.6);} 
+.project{
+    background-image: url("background.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 10%;
+}
+.project table{
+    padding-left: 12%;
+    padding-top: 12%;
+    padding-right: 12%;
+    width: 100%;
+}
+
+.project table tr{
+    background-color: #ecf0f1;
+    opacity: 0.6;
+}
+.project table tr:hover{
+    animation: hoverProjects 0.5s;
+    opacity: 1;
+    cursor: pointer;
+}
+#footer{
+    background-color: #2c3e50;
+    color: #ecf1f0;
+    text-align: right;
+    padding-right: 12%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+@keyframes profilePic{
+    0{box-shadow: 0px 0px rgba(0,0,0,0.6);}
+    25%{box-shadow: 0px 0px 10px 0.25px rgba(0,0,0,0.6);}
+    50%{box-shadow: 0px 0px rgba(0,0,0,0.6);}
+    75%{box-shadow: 0px 0px 10px 0.25px rgba(0,0,0,0.6);}
+    100%{box-shadow: 0px 0px rgba(0,0,0,0.6);}
+}
+@keyframes hoverProjects{
+    from{opacity: 0.6;}
+    to{opacity: 1;}
+}
+@keyframes fbHover{
+    from{
+        background-color: #3b5998;
+        color: #ecf0f1;
+        border-bottom: inherit
+    }
+    to{
+        background-color: #ecf0f1;
+        color: #3b5998;
+        border-bottom: 6px solid #3b5998;
+        box-shadow: 0px 3px 10px 0.25px rgba(0,0,0,0.6);
+    }
+}
+@keyframes twHover{
+    from{
+        background-color: #55acee;
+        color: #ecf0f1;
+        border-bottom: inherit;
+    }
+    to{
+        background-color: #ecf0f1;
+        color: #55acee;
+        border-bottom: 6px solid #55acee;
+        box-shadow: 0px 3px 10px 0.25px rgba(0,0,0,0.6);
+    }
+}
+@keyframes maHover{
+    from{
+        background-color: #373737;
+        color: #ecf0f1;
+        border-bottom: inherit;
+    }
+    to{
+        background-color: #ecf0f1;
+        color:#373737;
+        border-bottom: 6px solid #373737;
+        box-shadow: 0px 3px 10px 0.25px rgba(0,0,0,0.6);
+    }
+}
+@font-face {
+    font-family: Ubuntu;
+    src: url(Ubuntu.ttf);
+}
+@media screen and (max-width: 480px) {
+    .nav #right {
+        display: none;
+    }
+}
