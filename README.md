@@ -1,10 +1,10 @@
 # personal-website
 A simple but amazing personal single paged-website template made from scratch.
 
-#Preview
+# Preview
 [http://98.hol.es/git/personal-website/ <- click here](http://98.hol.es/git/personal-website/)
 
-#License
+# License
 MIT License
 
 Copyright (c) 2016 Muhammad Muzzammil (http://98.hol.es/)
