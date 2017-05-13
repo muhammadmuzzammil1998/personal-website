@@ -6,7 +6,7 @@ A simple but amazing personal single paged-website template made from scratch.
 # License
 MIT License
 
-Copyright (c) 2016 Muhammad Muzzammil (http://98.hol.es/)
+Copyright (c) 2016 Muhammad Muzzammil (http://www.muzzammil.xyz/)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
