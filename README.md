@@ -1,9 +1,7 @@
-# personal-website
+# personal-website · [Preview](http://git.muzzammil.xyz/personal-website)
 A simple but amazing personal single paged-website template made from scratch.
 
-# [Preview](http://git.muzzammil.xyz/personal-website).
-
-# License
+## License
 MIT License
 
 Copyright (c) 2016 Muhammad Muzzammil (http://www.muzzammil.xyz/)
